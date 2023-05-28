@@ -604,6 +604,10 @@ video {
   z-index: 10;
 }
 
+.clear-right {
+  clear: right;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -766,6 +770,10 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .scroll-smooth {
