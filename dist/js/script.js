@@ -21,6 +21,15 @@ hamburger.addEventListener('click', function() {
 });
 
 // link blog
-function click() {
-    alert("hashdhsjah")
-}
+const notAvailable = document.querySelector('#button')
+notAvailable.addEventListener('click', function() {
+    console.log("tombol di klik")
+    alert("Ridwan belum membuat sebuah blog")
+})
+
+// portfolio [3]
+const eCommerce = document.querySelector('#eCommerce') 
+
+eCommerce.addEventListener('click', function() {
+    alert("Mohon maaf website yang akan anda kunjungi belum sepenuhnya selesai/sempurna.")
+})

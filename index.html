@@ -77,28 +77,25 @@
               >Hubungi Saya</a
             >
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2 lg:-ml-20">
+          <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:mt-9 lg:right-0">
               <img
-                src="dist/img/ridwan-removebg-preview.png"
+                src="dist/img/client/ridwan-2-rmvbg.png"
                 alt="calon orang sukses"
-                class="max-w-full mx-auto"
+                class="max-w-full mx-auto rounded-full border border-double border-sky-500 outline outline-offset-4 outline-sky-500"
               />
               <span
                 class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-25"
               >
-                <svg
-                  width="400"
-                  height="400"
-                  viewBox="0 0 200 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="#2563eb"
-                    d="M47.5,-60.7C59.4,-46.5,65.6,-29.6,66.5,-13.4C67.4,2.9,63.1,18.4,56,34C49,49.7,39.3,65.4,26.3,68.5C13.3,71.6,-2.9,62,-16.5,53.5C-30.2,45.1,-41.3,37.7,-51.4,26.6C-61.6,15.5,-70.7,0.7,-68.3,-11.9C-65.9,-24.6,-52.1,-35,-38.8,-49C-25.5,-63,-12.7,-80.5,2.5,-83.5C17.7,-86.5,35.5,-75,47.5,-60.7Z"
-                    transform="translate(100 100) scale(0.7)"
-                  />
-                </svg>
+              <svg 
+              viewBox="0 0 200 200" 
+              xmlns="http://www.w3.org/2000/svg"
+              height="300"
+              width="300"
+              class="lg:h-[400px] lg:w-[400px] lg:hidden"
+              >
+                <path fill="#0ea5e9" d="M27.3,-48.8C40.1,-39.8,58.6,-42.2,62.2,-35.9C65.9,-29.7,54.6,-14.8,46.4,-4.7C38.3,5.4,33.1,10.8,29,16.2C24.9,21.7,21.9,27.2,17.3,37C12.6,46.8,6.3,60.7,-1.9,64C-10.1,67.3,-20.1,59.8,-25.6,50.5C-31.1,41.2,-32,30.1,-40.3,21.4C-48.7,12.7,-64.4,6.3,-68,-2C-71.5,-10.4,-62.8,-20.8,-55.6,-31.4C-48.3,-42,-42.5,-52.7,-33.5,-64C-24.4,-75.2,-12.2,-86.9,-2.5,-82.6C7.2,-78.3,14.4,-57.9,27.3,-48.8Z" transform="translate(100 100) scale(1.2)" />
+              </svg>
               </span>
             </div>
           </div>
@@ -108,7 +105,7 @@
     <!-- HERO SECTION END-->
 
     <!-- ABOUT SECTION START -->
-    <section id="about" class="pt-36 pb-32">
+    <section id="about" class="pt-32 pb-32">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
@@ -268,8 +265,10 @@
                         <img src="dist/img/photo/5.png" alt="Project Ketiga" width="w-full">
                     </div>
                     <h3 class="font-semibold text-xl text-dark mt-5 mb-3">E-commerce </h3>
-                    <p class="font-medium text-base text-secondary">Sebuah website penjualan (belum sempurna).</p>
-                      <a href="https://muhammadridwan13.github.io/kazamastore.github.io/" target="_blank" class="font-semibold text-sm text-white bg-slate-700 py-2 px-4 rounded-2xl hover:opacity-80 mt-5 inline-block transition duration-500 ease-in-out">Kunjungi</a>
+                    <p class="font-medium text-base text-secondary">
+                      Sebuah website penjualan (belum selesai).
+                    </p>
+                      <a href="https://muhammadridwan13.github.io/kazamastore.github.io/" target="_blank" class="font-semibold text-sm text-white bg-slate-700 py-2 px-4 rounded-2xl hover:opacity-80 mt-5 inline-block transition duration-500 ease-in-out" id="eCommerce">Kunjungi</a>
                 </div>
 
                 <!-- <div class="mb-12 p-4 md:w-1/2">
@@ -335,7 +334,9 @@
                   <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Keyboard ala Anak IT</a>
                 </h3>
                 <p class="font-medium text-base text-secondary mb-6">Anak IT pastinya sudah tidak asing dengan alat yang bernama keyboard, berikut inilah hasil review keyboard mereka</p>
-                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" onclick="click()">Baca Selengkapnya</a>
+                <button id="button">
+                  <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" >Baca Selengkapnya</a>
+                </button>
               </div>
             </div>
           </div>
@@ -347,7 +348,9 @@
                   <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Seberapa Penting Sebuah Kopi</a>
                 </h3>
                 <p class="font-medium text-base text-secondary mb-6">Sudah menjadi ciri khas tersendiri bagi anak IT, mengkonsumsi sebuah kopi dan mengudud ialah suatu kebiasaan yang tidak akan hilang</p>
-                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" onclick="click()">Baca Selengkapnya</a>
+                <button id="komik">
+                  <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" >Baca Selengkapnya</a>
+                </button>
               </div>
             </div>
           </div>
@@ -359,7 +362,9 @@
                   <a href="#" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tips Ngoding Ngebut</a>
                 </h3>
                 <p class="font-medium text-base text-secondary mb-6">Dengan adanya teknologi AI anak IT sangat merasa terbantu, dan inilah perbedaan dari AI yang mereka gunakan</p>
-                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" onclick="click()">Baca Selengkapnya</a>
+                <button id="buku">
+                  <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80" >Baca Selengkapnya</a>
+                </button>
               </div>
             </div>
           </div>
@@ -405,36 +410,31 @@
 
     <!-- TESTING DAISY START -->
     <!-- <section class="pt-36 pb-32">
-      <div class="container flex justify-center items-center">
-        <div class="w-1/2 px-4 bg-dark rounded-lg text-white">
-          <div class="chat chat-start">
-            <div class="chat-image avatar">
-              <div class="w-10 rounded-full">
-                <img src="dist/img/IMG-20230518-WA0043.jpg" />
-              </div>
-            </div>
-            <div class="chat-header">
-              Bang Senior
-              <time class="text-xs opacity-50">12:45</time>
-            </div>
-            <div class="chat-bubble">Info loker bang</div>
-            <div class="chat-footer opacity-50">
-              Delivered
-            </div>
-          </div>
-          <div class="chat chat-end">
-            <div class="chat-image avatar">
-              <div class="w-10 rounded-full">
-                <img src="dist/img/FOTO_LATAR_BIRU-removebg-preview.png" />
-              </div>
-            </div>
-            <div class="chat-header">
-              Junior WebDev
-              <time class="text-xs opacity-50">12:46</time>
-            </div>
-            <div class="chat-bubble">Cari Sendiri!</div>
-            <div class="chat-footer opacity-50">
-              Seen at 12:46
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-end px-4 lg:w-1/2 lg:-ml-20">
+            <div class="relative mt-10 lg:mt-9 lg:right-0">
+              <img
+                src="dist/img/ridwan-removebg-preview.png"
+                alt="calon orang sukses"
+                class="max-w-full mx-auto"
+              />
+              <span
+                class="absolute -bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-25"
+              >
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#2563eb"
+                    d="M47.5,-60.7C59.4,-46.5,65.6,-29.6,66.5,-13.4C67.4,2.9,63.1,18.4,56,34C49,49.7,39.3,65.4,26.3,68.5C13.3,71.6,-2.9,62,-16.5,53.5C-30.2,45.1,-41.3,37.7,-51.4,26.6C-61.6,15.5,-70.7,0.7,-68.3,-11.9C-65.9,-24.6,-52.1,-35,-38.8,-49C-25.5,-63,-12.7,-80.5,2.5,-83.5C17.7,-86.5,35.5,-75,47.5,-60.7Z"
+                    transform="translate(100 100) scale(0.7)"
+                  />
+                </svg>
+              </span>
             </div>
           </div>
         </div>
@@ -497,7 +497,7 @@
           <div class="flex items-center justify-center mb-5">
             <!-- youtube -->
             <a
-              href="https://youtube.com/deaafrizal"
+              href="https://youtube.com/@mhmdriduan.13"
               target="_blank"
               class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
             >
