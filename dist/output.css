@@ -2471,6 +2471,30 @@ html {
   height: 15px;
 }
 
+.h-\[27px\] {
+  height: 27px;
+}
+
+.h-\[17px\] {
+  height: 17px;
+}
+
+.h-\[1px\] {
+  height: 1px;
+}
+
+.h-\[16px\] {
+  height: 16px;
+}
+
+.h-\[18px\] {
+  height: 18px;
+}
+
+.h-\[19px\] {
+  height: 19px;
+}
+
 .w-14 {
   width: 3.5rem;
 }
@@ -2549,6 +2573,18 @@ html {
 
 .w-\[145px\] {
   width: 145px;
+}
+
+.w-\[160px\] {
+  width: 160px;
+}
+
+.w-\[170px\] {
+  width: 170px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .max-w-\[120px\] {
