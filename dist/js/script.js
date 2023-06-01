@@ -34,11 +34,11 @@ window.addEventListener('click', function(e) {
 })
 
 // link blog
-const notAvailable = document.querySelector('#button')
-notAvailable.addEventListener('click', function() {
-    console.log("tombol di klik")
-    alert("Ridwan belum membuat sebuah blog")
-})
+function klik() {
+    console.log("tombol diklik");
+    alert("BLOG BELUM DIBUAT OLEH PEMILIK WEB")
+}
+
 
 // portfolio [3]
 const eCommerce = document.querySelector('#eCommerce') 
@@ -68,3 +68,4 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
 } else {
     darkToggle.checked = false;
   }
+
