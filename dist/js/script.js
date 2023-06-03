@@ -1,24 +1,24 @@
 // navbar fixed
 window.onscroll = function () {
-    const header = document.querySelector('header')
-    const fixedNav = header.offsetTop
-    const toTop = document.querySelector('#to-top')
+    const header = document.querySelector('header');
+    const fixedNav = header.offsetTop;
+    const toTop = document.querySelector('#to-top');
 
     if (window.pageYOffset > fixedNav) {
-        header.classList.add('navbar-fixed')
-        toTop.classList.remove('hidden')
-        toTop.classList.add('flex')
+        header.classList.add('navbar-fixed');
+        toTop.classList.remove('hidden');
+        toTop.classList.add('flex');
     } else {
-        header.classList.remove('navbar-fixed')
-        toTop.classList.remove('flex')
-        toTop.classList.add('hidden')
+        header.classList.remove('navbar-fixed');
+        toTop.classList.remove('flex');
+        toTop.classList.add('hidden');
     }
 }
 
 // hamburger
 
 const hamburger = document.querySelector('#hamburger');
-const navMenu = document.querySelector('#nav-menu')
+const navMenu = document.querySelector('#nav-menu');
 
 hamburger.addEventListener('click', function() {
     hamburger.classList.toggle('hamburger-active');
@@ -36,15 +36,23 @@ window.addEventListener('click', function(e) {
 // link blog
 function klik() {
     console.log("tombol diklik");
-    alert("BLOG BELUM DIBUAT OLEH PEMILIK WEB")
+    alert("BLOG BELUM DIBUAT OLEH PEMILIK WEB");
 }
+
+// alert submit
+const submit = document.querySelector('button#misuh');
+
+submit.addEventListener('click', function() {
+    console.log("tombol diklik")
+    alert("RIDWAN BELUM MEMBUAT SEBUAH BACKEND")
+})
 
 
 // portfolio [3]
-const eCommerce = document.querySelector('#eCommerce') 
+const eCommerce = document.querySelector('#eCommerce') ;
 
 eCommerce.addEventListener('click', function() {
-    alert("Mohon maaf website yang akan anda kunjungi belum sepenuhnya selesai/sempurna.")
+    alert("Mohon maaf website yang akan anda kunjungi belum sepenuhnya selesai/sempurna.");
 })
 
 
