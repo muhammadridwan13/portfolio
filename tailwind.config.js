@@ -21,6 +21,8 @@ module.exports = {
   },
   plugins: [
     require("daisyui"),
-    require("aos")],
+    require("aos"),
+    require("gsap")
+  ],
 }
 
