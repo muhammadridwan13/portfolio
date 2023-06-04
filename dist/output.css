@@ -3247,3 +3247,9 @@ body {
     width: 83.333333%;
   }
 }
+
+@media (max-width: 340px) {
+  .mini\:hidden {
+    display: none;
+  }
+}
