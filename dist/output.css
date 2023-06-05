@@ -3252,7 +3252,7 @@ body {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 365px) {
   .mini\:hidden {
     display: none;
   }

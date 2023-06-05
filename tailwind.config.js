@@ -16,7 +16,7 @@ module.exports = {
       },
       screens: {
         '2xl': '1320px',
-        'mini': { 'raw': '(max-width: 340px)' },
+        'mini': { 'raw': '(max-width: 365px)' },
       }
     },
   },
