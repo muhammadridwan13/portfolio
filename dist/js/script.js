@@ -44,7 +44,7 @@ const submit = document.querySelector('button#misuh');
 
 submit.addEventListener('click', function() {
     console.log("tombol diklik")
-    alert("RIDWAN BELUM MEMBUAT SEBUAH BACKEND")
+    alert("MAAF, FORM INI BELUM BERFUNGSI🙏")
 })
 
 
